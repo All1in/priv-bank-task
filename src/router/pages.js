@@ -7,5 +7,11 @@ export const publicRoutes = [
     { path: '/', element: HomePage },
     { path: '/login', element: LoginPage },
     { path: '/products', element: ProductPage },
+]
+
+export const privateRoutes  = [
+    { path: '/', element: HomePage },
+    { path: '/login', element: LoginPage },
+    { path: '/products', element: ProductPage },
     { path: '/products/:id', element: ProductDetailsPage },
 ]
